@@ -1,6 +1,5 @@
 {
     "version": 2,
-    "name": "kanap-bd",
     "builds": [
         {
             "src": "./app.js",
