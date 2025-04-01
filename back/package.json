@@ -11,6 +11,8 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "back": "file:"
+    "back": "file:",
+    "express": "^4.21.2",
+    "uuid": "^8.3.2"
   }
 }
