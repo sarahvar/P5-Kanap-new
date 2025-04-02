@@ -1,16 +1,16 @@
 {
     "version": 2,
+    "name": "kanap-bd",
     "builds": [
-      {
-        "src": "back/server.js",
-        "use": "@vercel/node"
-      }
+        {
+            "src": "./app.js",
+            "use": "@vercel/node"
+        }
     ],
-    "routes": [
-      {
-        "src": "/(.*)",
-        "dest": "back/server.js"
-      }
+    "routes" : [
+        {
+            "src": "/(.*)",
+            "dest": "/app.js"
+        }
     ]
-  }
-  
+}
